@@ -17,7 +17,7 @@ const WeatherProvider = ({ children }) => {
   };
 
   const getWeatherInfo = async (city) => {
-    const urlGeocoding = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${
+    const urlGeocoding = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${
       import.meta.env.VITE_API_KEY
     }`;
 
